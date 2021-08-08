@@ -1,0 +1,29 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "A fastify api",
+  "main": "index.js",
+  "author": "Tareq Hossain",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bee-queue": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.20.1",
+    "fastify-cors": "^6.0.2",
+    "fastify-jwt": "^3.0.1",
+    "fastify-plugin": "^3.0.0",
+    "joi": "^17.4.2",
+    "lodash": "^4.17.21",
+    "mariadb": "^2.5.4",
+    "nodemailer": "^6.6.3",
+    "sequelize": "^6.6.5",
+    "sharp": "^0.28.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
